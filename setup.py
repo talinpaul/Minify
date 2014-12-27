@@ -4,16 +4,16 @@ except ImportError:
     from distutils.core import setup
 
 config = {
-    'description': 'My Project',
-    'author': 'My Name',
-    'url': 'URL to get it at.',
-    'download_url': 'Where to download it.',
-    'author_email': 'My email.',
+    'description': 'It is supposed to carry out few optimizations on a CSS, Javascript Files.',
+    'author': 'Talin Paul',
+    'url': 'Not yet...',
+    'download_url': 'Not yet...',
+    'author_email': 'talinpaul@yahoo.com',
     'version': '0.1',
     'install_requires': ['nose'],
-    'packages': ['NAME'],
+    'packages': ['Minify'],
     'scripts': [],
-    'name': 'projectname'
+    'name': 'Minify'
 }
 
 setup(**config)
